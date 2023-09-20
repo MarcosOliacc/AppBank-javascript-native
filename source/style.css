@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono',sans-serif;
+}
+body {
+    background-color: rgb(11, 71, 110);
+}
+main {
+    background:linear-gradient(to top right, transparent 30%,rgba(0, 0, 0, 0.863)), url(img/pessoas.jpg) no-repeat;
+    background-size: cover;
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.219);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.mainAct {
+    display: flex;
+}
+#startAppBtn{
+    width: 300px;
+    height: 70px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#sliderConteiner{
+    background-color: transparent;
+    height: 350px;
+    width: 600px;
+
+    position: relative;
+    display: none;
+}
+#sliderStatus {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    background-color: rgb(73, 70, 70);
+    width: 158px;
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid rgb(51, 49, 49);
+    overflow: hidden;
+}
+.upFormsBtn {
+    width: 80px;
+    height: 30px;
+    border: none;
+    margin: -5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.formBtnActive {
+    background-color: aliceblue;
+    font-weight: 700;
+}
+#slider {
+    width: 100%;
+    height: 100%;
+
+}
+.formActive {
+    display: none;
+}
+
+
+
+#sliderContent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.forms {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 255, 255);
+
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px; 
+}
+#formBGcolor {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+
+    background-color: rgb(11, 71, 110);
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+    color: #fff;
+}
+.formsContent {
+    display: flex;
+    flex-flow: column;
+    
+}
+.formsContent label {
+    font-size: 15px;
+    
+}
+.formsContent input {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+.spaces {
+    gap: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.spaces h1{
+    font-size: 40px;
+}
+.accountBtn {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.accountBtn:hover {
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: rgb(199, 199, 248);
+}
+.formContent2 input {
+    margin-bottom: 10px;
+}

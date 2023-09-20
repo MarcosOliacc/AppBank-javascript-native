@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem vindo!</title>
+</head>
+<body>
+    <div id="main2">
+        <h1>seja bem vindo <span id="ownerName"></span></h1>
+        <h1>saldo da conta: <br><span id="balanceAcc"></span></h1>
+        <h3 id="accc">asdf</h3>
+        
+        <div id="actions">
+            <button id="actDeposit" class="actbnt">Realizar um Depósito</button>
+            <button id="actTransfer" class="actbnt">Realizar uma Transferência</button>
+            <button id="actExit" class="actbnt">Sair da conta</button>
+        </div>
+    </div>
+    <div id="depositArea" class="actAreas">
+        <h1>Realizar Deposito</h1>
+        <label for="depValue">Informe o valor que deseja adicionar:</label>
+        <input type="number" name="depValue" id="depValue">
+        <button class="actbnt" id="confirmDep">confirmar</button>
+        <button class="actbnt" id="cancelDep">Cancelar</button>
+    </div>
+    
+    <div id="TransferArea" class="actAreas">
+        <h1>Realizar Transferência</h1>
+        <label for="transfValue">Informe o valor da Transferência</label>
+        <input type="number" id="transfValue">
+        <label for="destiny">Informe o número da conta de destino:</label>
+        <input type="number" id="destiny">
+        <button class="actbnt" id="confirmTransf">confirmar</button>
+        <button class="actbnt" id="cancelTransf">Cancelar</button>
+    </div>
+
+</body>
+</html>

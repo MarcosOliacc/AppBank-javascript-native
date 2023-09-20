@@ -1,0 +1,45 @@
+{
+  "Accounts": [
+    {
+      "fullName": "marcos",
+      "Email": "vini@email.com",
+      "password": "#Marcos123",
+      "account": "1234",
+      "extrat": [
+        {
+          "deposit": {
+            "value": "12345",
+            "date": "13/9/2023"
+          },
+          "saldo": 12345
+        },
+        {
+          "deposit": {
+            "value": "9876",
+            "date": "13/9/2023"
+          },
+          "saldo": 22221
+        }
+      ],
+      "balance": 22221,
+      "id": 1
+    },
+    {
+      "fullName": "rodrigo",
+      "Email": "rod@email.com",
+      "password": "#Rod1234",
+      "account": "4321",
+      "extrat": [
+        {
+          "deposit": {
+            "value": "9876",
+            "date": "13/9/2023"
+          },
+          "saldo": 9876
+        }
+      ],
+      "balance": 9876,
+      "id": 2
+    }
+  ]
+}

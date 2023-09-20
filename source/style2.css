@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(11, 71, 110);
+}
+.main2 {
+    background-color: aliceblue;
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.219);
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+    display: none;
+}
+#actions {
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+.actbnt {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(66, 66, 175);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.actAreas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    background-color: aliceblue;
+    width: 600px;
+    height: 650px;
+    gap: 30px;    
+}
+
+.mainAct {
+    display: flex;
+}
+#divextrat {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

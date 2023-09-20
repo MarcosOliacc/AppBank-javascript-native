@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="index.js" type="module" defer></script>
+</head>
+<body>
+    <main id="main1" class="mainAct">
+        <div id="startContent">
+            <button id="startAppBtn">Iniciar Aplicativo</button>
+        </div>
+        
+        <div id="sliderConteiner">
+            <div id="sliderStatus">
+                <button id="upFormBtn1" class="upFormsBtn formBtnActive">Login</button>
+                <button id="upFormBtn2" class="upFormsBtn">Register</button>
+            </div>
+
+        <div id="slider">
+        <div id="sliderContent">
+            <div id="loginContent" class="forms">
+                
+                <div id="formBGcolor">
+                    <form id="form1" class="formsContent" action="#" method="get">
+                        <label for="logEmail">Informe o Email cadastrado:</label>
+                        <input type="text" id="logEmail">
+                        <label for="logSenha">Informe a sua Senha:</label>
+                        <input type="text" id="logSenha">
+                    </form>
+                    <div class="formsContent spaces">
+                        <h1>Login</h1>
+                        <button id="loginBtn" class="accountBtn">Entrar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="registerContent" class="forms">
+                <div id="formBGcolor">
+                    <form class="formsContent formContent2" action="#" method="get" id="registerForm">
+                        <label for="regsName">Informe seu nome completo:</label>
+                        <input type="text" id="regsName" name="name">
+                        <label for="regsEmail">Informe seu melhor Email:</label>
+                        <input type="text" id="regsEmail" name="email">
+                        <label for="regsSenha">Informe a sua Senha:</label>
+                        <input type="text" id="regsSenha" name="password">
+                        <label for="repitSenha">Repita a sua Senha:</label>
+                        <input type="text" id="repitSenha" name="password">
+                        
+                    </form>
+                    <div class="formsContent spaces">
+                        <h1>Registrar</h1>
+                        <button id="registerBtn" class="accountBtn">registrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+
+    <div id="idmain2" class="main2">
+        <h1>seja bem vindo <span id="ownerName"></span></h1>
+        <h1>saldo da conta: <br><span id="balanceAcc"></span><br>Número de conta: <span id="accc"></span></h1>
+        
+        <div id="actions">
+            <button id="actDeposit" class="actbnt">Realizar um Depósito</button>
+            <button id="actTransfer" class="actbnt">Realizar uma Transferência</button>
+            <button id="actExtrat" class="actbnt">Ver Extrato</button>
+            <button id="actExit" class="actbnt">Sair da conta</button>
+        </div>
+    </div>
+    <div id="depositArea" class="actAreas">
+        <h1>Realizar Deposito</h1>
+        <label for="depValue">Informe o valor que deseja adicionar:</label>
+        <input type="number" name="depValue" id="depValue">
+        <button class="actbnt" id="confirmDep">confirmar</button>
+        <button class="actbnt" id="cancelDep">Cancelar</button>
+    </div>
+    
+    <div id="TransferArea" class="actAreas">
+        <h1>Realizar Transferência</h1>
+        <label for="transfValue">Informe o valor da Transferência</label>
+        <input type="number" id="transfValue">
+        <label for="destiny">Informe o número da conta de destino:</label>
+        <input type="number" id="destiny">
+        <button class="actbnt" id="confirmTransf">confirmar</button>
+        <button class="actbnt" id="cancelTransf">Cancelar</button>
+    </div>
+    <div id="extratArea" class="actAreas">
+        <h1>Seu Extarto</h1>
+        <div id="divextrat"></div>
+        <button class="actbnt" id="closeExtrat">Voltar</button>
+    </div>
+
+</body>
+</html>
